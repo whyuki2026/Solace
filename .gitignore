@@ -1,0 +1,51 @@
+# ---- Gradle ----
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+.kotlin/
+
+# ---- Android ----
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+output-metadata.json
+
+# ---- IntelliJ / Android Studio ----
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.fleet/
+
+# ---- Signing ----
+*.jks
+*.keystore
+*.p12
+keystore.properties
+signing.properties
+
+# ---- Kotlin / Java ----
+*.hprof
+hs_err_pid*
+
+# ---- Logs / temp ----
+*.log
+*.tmp
+*.swp
+
+# ---- Environment ----
+.env
+.env.*
+
+# ---- OS ----
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
