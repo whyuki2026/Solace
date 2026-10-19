@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Solace</string>
+    <string name="home_greeting">Hello, Solace</string>
+    <string name="home_tagline">本地影像 · 安静观看</string>
+</resources>

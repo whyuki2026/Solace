@@ -29,3 +29,19 @@ Solace 是一款完全离线的本地图片与视频浏览应用。不联网、�
 5. **体验底线**：千级作品、万级媒体下保持流畅；Android 8.0+，支持深色模式与无障碍。
 
 首版不做：云同步、账号、社交分享、在线内容、AI 打标、图片视频编辑、多端同步。
+
+## How to Run
+
+前置条件：JDK 17。Android Studio 的 Gradle JDK 需选择 17（自带 JBR 25 与 Gradle 8.13 不兼容）。
+
+1. 用 Android Studio 打开仓库根目录。
+2. 在 Device Manager 中创建并启动模拟器，或连接 Android 8.0+ 真机。
+3. 选择 `app` 运行配置，点击 Run。
+
+命令行方式：
+
+```bash
+./gradlew :app:assembleDebug
+adb install -r app/build/outputs/apk/debug/app-debug.apk
+```
+
